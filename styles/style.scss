@@ -20,7 +20,7 @@ header {
     background-image: url('../img/background.png');
     width: 100%;
     height: 840px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
 
@@ -252,7 +252,17 @@ header {
                 top: 1650px;
             }
         }
-    }   
+    } 
+    @media screen and (max-width: 1400px) {
+        height: 1500px;
+
+        .services-content {
+             
+            .button-help {
+                top: 1150px;
+            }
+        }
+    }  
 }
 
 .about-title {
@@ -290,13 +300,18 @@ header {
             top: 2700px;
         } 
     }
+    @media screen and (max-width: 1400px) {
+        .logo-vector-about {
+            top: 2440px;
+        } 
+    }
 }
 
 .about-content {
     background-image: url(../img/Rectangle\ 259.png);
     width: 100%;
     height: 732px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
     display: flex;
@@ -371,6 +386,19 @@ header {
             top: 4190px;
         }
     }
+    @media screen and (max-width: 1400px) {
+        .button-help {
+            top: 3100px;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        height: 1200px;
+
+        .button-help {
+            top: 3535px;
+        }
+    }
 }
 
 .testymonials {
@@ -394,6 +422,7 @@ header {
     .testymonials-comment {
         position: relative;
         top: 50px;
+        align-items: center;
 
         div {
             width: 577px;
@@ -445,6 +474,9 @@ header {
                 width: 500px;
             }
         }
+    }
+    @media screen and (max-width: 1400px) {
+        height: 1350px;
     }
 }
 .contact-us {
