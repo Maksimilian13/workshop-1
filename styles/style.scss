@@ -136,7 +136,7 @@ header {
 }
 .services {
     width: 100%;
-    height: 1060px;
+    height: 890px;
     background-color: $background-color;
     display: flex;
     justify-content: center;
@@ -210,7 +210,7 @@ header {
         }
         .button-help {
             position: absolute;
-            top: 654px;
+            top: 567px;
             display: flex;
             justify-content: center;
     
@@ -234,8 +234,19 @@ header {
             }
         }
     }
+    @media screen and (max-width: 1400px) {
+        height: 1500px;
+
+        .services-content {
+             
+            .button-help {
+                top: 1150px;
+            }
+        }
+    }
+
     @media screen and (max-width: 576px) {
-        height: 2000px;
+        height: 2050px;
 
         .logo-vector-servicer{
             top: 760px;
@@ -249,20 +260,10 @@ header {
             align-items: center;
 
             .button-help {
-                top: 1650px;
+                top: 1680px;
             }
         }
-    } 
-    @media screen and (max-width: 1400px) {
-        height: 1500px;
-
-        .services-content {
-             
-            .button-help {
-                top: 1150px;
-            }
-        }
-    }  
+    }   
 }
 
 .about-title {
@@ -295,14 +296,16 @@ header {
             bottom: 29px;
         }
     }
-    @media screen and (max-width: 576px) {
-        .logo-vector-about {
-            top: 2700px;
-        } 
-    }
+   
     @media screen and (max-width: 1400px) {
         .logo-vector-about {
             top: 2440px;
+        } 
+    }
+
+    @media screen and (max-width: 576px) {
+        .logo-vector-about {
+            top: 2750px;
         } 
     }
 }
@@ -347,7 +350,7 @@ header {
         position: absolute;
         display: flex;
         justify-content: center;
-        top: 2635px;
+        top: 2490px;
 
         .button-help-me {
             border-color: $color-text-backgr;
@@ -367,8 +370,23 @@ header {
             }
         }
     }
+
+    @media screen and (max-width: 1400px) {
+        .button-help {
+            top: 3100px;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        height: 1200px;
+
+        .button-help {
+            top: 3535px;
+        }
+    }
+
     @media screen and (max-width: 576px) {
-        height: 1650px;
+        height: 1550px;
         background-color: $color-input-brmedia;
         background-image: none;
 
@@ -383,20 +401,7 @@ header {
             }
         }
         .button-help {
-            top: 4190px;
-        }
-    }
-    @media screen and (max-width: 1400px) {
-        .button-help {
-            top: 3100px;
-        }
-    }
-
-    @media screen and (max-width: 1280px) {
-        height: 1200px;
-
-        .button-help {
-            top: 3535px;
+            top: 4220px;
         }
     }
 }
@@ -465,6 +470,11 @@ header {
         }
         
     }
+
+    @media screen and (max-width: 1400px) {
+        height: 1350px;
+    }
+
     @media screen and (max-width: 576px) {
         height: 1350px;
 
@@ -474,9 +484,6 @@ header {
                 width: 500px;
             }
         }
-    }
-    @media screen and (max-width: 1400px) {
-        height: 1350px;
     }
 }
 .contact-us {

@@ -115,7 +115,7 @@ header .button-help .button-help-me:hover {
 
 .services {
   width: 100%;
-  height: 1060px;
+  height: 890px;
   background-color: #E5E5E5;
   display: flex;
   justify-content: center;
@@ -182,7 +182,7 @@ header .button-help .button-help-me:hover {
 }
 .services .services-content .button-help {
   position: absolute;
-  top: 654px;
+  top: 567px;
   display: flex;
   justify-content: center;
 }
@@ -202,9 +202,17 @@ header .button-help .button-help-me:hover {
   background-color: #48924F;
   border-color: #48924F;
 }
+@media screen and (max-width: 1400px) {
+  .services {
+    height: 1500px;
+  }
+  .services .services-content .button-help {
+    top: 1150px;
+  }
+}
 @media screen and (max-width: 576px) {
   .services {
-    height: 2000px;
+    height: 2050px;
   }
   .services .logo-vector-servicer {
     top: 760px;
@@ -217,15 +225,7 @@ header .button-help .button-help-me:hover {
     align-items: center;
   }
   .services .services-content .button-help {
-    top: 1650px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .services {
-    height: 1500px;
-  }
-  .services .services-content .button-help {
-    top: 1150px;
+    top: 1680px;
   }
 }
 
@@ -258,14 +258,14 @@ header .button-help .button-help-me:hover {
   left: 35px;
   bottom: 29px;
 }
-@media screen and (max-width: 576px) {
-  .about-title .logo-vector-about {
-    top: 2700px;
-  }
-}
 @media screen and (max-width: 1400px) {
   .about-title .logo-vector-about {
     top: 2440px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-title .logo-vector-about {
+    top: 2750px;
   }
 }
 
@@ -305,7 +305,7 @@ header .button-help .button-help-me:hover {
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 2635px;
+  top: 2490px;
 }
 .about-content .button-help .button-help-me {
   border-color: white;
@@ -322,22 +322,6 @@ header .button-help .button-help-me:hover {
   background-color: #48924F;
   border-color: #48924F;
 }
-@media screen and (max-width: 576px) {
-  .about-content {
-    height: 1650px;
-    background-color: #9FDEA9;
-    background-image: none;
-  }
-  .about-content .about-content-text {
-    top: 50px;
-  }
-  .about-content .about-content-text div:nth-child(2) {
-    margin: 30px 0;
-  }
-  .about-content .button-help {
-    top: 4190px;
-  }
-}
 @media screen and (max-width: 1400px) {
   .about-content .button-help {
     top: 3100px;
@@ -349,6 +333,22 @@ header .button-help .button-help-me:hover {
   }
   .about-content .button-help {
     top: 3535px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-content {
+    height: 1550px;
+    background-color: #9FDEA9;
+    background-image: none;
+  }
+  .about-content .about-content-text {
+    top: 50px;
+  }
+  .about-content .about-content-text div:nth-child(2) {
+    margin: 30px 0;
+  }
+  .about-content .button-help {
+    top: 4220px;
   }
 }
 
@@ -407,17 +407,17 @@ header .button-help .button-help-me:hover {
   color: #0D4D14;
   font-weight: 400;
 }
+@media screen and (max-width: 1400px) {
+  .testymonials {
+    height: 1350px;
+  }
+}
 @media screen and (max-width: 576px) {
   .testymonials {
     height: 1350px;
   }
   .testymonials .testymonials-comment div {
     width: 500px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .testymonials {
-    height: 1350px;
   }
 }
 
