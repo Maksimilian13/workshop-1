@@ -78,6 +78,7 @@ header h1 {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  text-shadow: 3px 3px 5px rgb(146, 133, 133);
 }
 header .button-help {
   position: absolute;
@@ -241,7 +242,7 @@ header .button-help .button-help-me:hover {
 }
 .about-title .logo-vector-about {
   position: absolute;
-  top: 2000px;
+  top: 1825px;
 }
 .about-title .logo-vector-about .vector1 {
   position: relative;

@@ -8,6 +8,7 @@
  $color-input-brmedia: #9FDEA9;
  $color-text-info:  #272525;
  $testymonials-color-content: #6CB981;
+ $shadow-color: rgb(146, 133, 133);
 
 
 body {
@@ -50,7 +51,7 @@ header {
                 position: relative;
                 bottom: 20px;
                 font-weight: 800;
-                }
+            }
             
             .yard_maintenance {
                 color: $color-text-backgr;
@@ -96,6 +97,7 @@ header {
         display: flex;
         justify-content: center;
         margin: 0 auto;
+        text-shadow: 3px 3px 5px $shadow-color;
     }
 
     .button-help {
@@ -172,8 +174,8 @@ header {
             right: 211px;
             bottom: 15px;
         }
-
     }
+
     .services-content {
         display: flex;
         justify-content: center;
@@ -278,7 +280,7 @@ header {
     }
     .logo-vector-about {
         position: absolute;
-        top: 2000px;
+        top: 1825px;
 
         .vector1 {
             position: relative;
@@ -361,7 +363,6 @@ header {
             color: $color-text-button-hoverbr;               
             font-weight: 700;
             font-size: 18px;
-
 
             &:hover {
                 color: $color-text-backgr;
